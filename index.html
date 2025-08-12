@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadrasto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <i class="fas fa-user-plus"></i>
+            <h1>Cadrasto de usuário</h1>
+            <p>Preencha seus dados pessoais</p>
+        </div>
+
+        <form id="CadrastoForm" class="form">
+            <div class="form-group">
+                <label for="nome">
+                    <i class="fas fa-user"></i>
+                    nome*
+                </label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                <span class="error-message" id="nome-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="sobrenome">
+                    <i class="fas fa-user"></i>
+                    Sobrenome* 
+                </label>
+                <input type="text" id="sobrenome" name="sobrenome" required placeholder="Digite seu Sobrenome">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
